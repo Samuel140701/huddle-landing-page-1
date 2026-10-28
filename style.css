@@ -12,7 +12,7 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #fff, #5d6e72, #fff, #5d6e72, #fff, #00282e);
+    background: linear-gradient(to bottom, #fff, #5d6e72, #00282e);
     background-repeat: no-repeat;
     /*url(images/bg-section-top-desktop-1.svg) center 100% 20%,
     url(images/bg-section-top-desktop-2.svg) center 100% 40%,
@@ -38,7 +38,7 @@ body {
         background-repeat: no-repeat;*/
         font-family: "Poppins", sans-serif;
         width: 100vw;
-        }
+    }
 }
 
 /*Header*/
@@ -87,7 +87,7 @@ body {
 
 #hero .body {
     text-align: center;
-    width: 400px;
+    width: 500px;
     margin: 1.5rem 0;
     color: var(--paragraph);
 }
@@ -217,7 +217,7 @@ body {
     color: var(--paragraph);
 }
 
-@media (max-width: 9800px) {
+@media (max-width: 980px) {
     .flex-container {
         display: flex;
         flex-direction: column;
@@ -254,7 +254,7 @@ body {
 }
 
 /*Container*/
-.container {
+.container-1 {
     margin-top: 15rem;
     display: flex;
     justify-content: center;
@@ -268,7 +268,7 @@ body {
 .container-2 {
     margin-top: 15rem;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 200px;
@@ -456,7 +456,7 @@ body {
 }
 
 .sign-up {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
